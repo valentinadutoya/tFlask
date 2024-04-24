@@ -6,6 +6,7 @@ CREATE TABLE user (
   username TEXT UNIQUE NOT NULL,
   password TEXT NOT NULL,
   veri_password TEXT NOT NULL
+  email TEXT UNIQUE NOT NULL
 );
 
 CREATE TABLE post (
